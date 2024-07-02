@@ -16,7 +16,8 @@
       "./asset/Paris2.jpg",
       "./asset/Paris3.jpg",
       "./asset/Paris4.jpeg",
-      "./asset/Paris5.jpeg"]
+      "./asset/Paris5.jpeg"],
+      "location": "2.3522, 48.8566"
   },
   "Marseille": {
     "name": "Marseille",
@@ -35,7 +36,8 @@
     "./asset/marseille2.jpeg",
     "./asset/marseille3.jpeg",
     "./asset/marseille4.jpeg,",
-    "./asset/marseille5.jpeg"]
+    "./asset/marseille5.jpeg"],
+    "location": "5.3698, 43.2965"
   },
   "Lyon": {
     "name": "Lyon",
@@ -54,7 +56,8 @@
     "./asset/Lyon2.jpeg",
     "./asset/Lyon3.jpeg",
     "./asset/Lyon4.jpeg",
-    "./asset/Lyon5.jpeg"]
+    "./asset/Lyon5.jpeg"],
+    "location": "4.8357, 45.7640"
   },
   "Toulouse": {
     "name": "Toulouse",
@@ -73,7 +76,8 @@
       "./asset/toulouse2.jpeg",
       "./asset/toulouse3.jpeg",
       "./asset/toulouse4.jpeg",
-      "./asset/toulouse5.jpeg"]
+      "./asset/toulouse5.jpeg"],
+      "location": "1.4442, 43.6047"
   },
   "Nice": {
     "name": "Nice",
@@ -92,7 +96,8 @@
     "./asset/nice2.jpeg",
     "./asset/nice3.jpeg",
     "./asset/nice4.jpeg,",
-    "./asset/nice5.jpeg"]
+    "./asset/nice5.jpeg"],
+    "location": "7.2620, 43.7102"
   },
   "Nantes": {
     "name": "Nantes",
@@ -111,7 +116,8 @@
     "./asset/nantes2.jpeg",
     "./asset/nantes3.jpeg",
     "./asset/nantes4.jpeg,",
-    "./asset/nantes5.jpeg"]
+    "./asset/nantes5.jpeg"],
+     "location": "-1.5536, 47.2184"
   },
   "Strasbourg": {
     "name": "Strasbourg",
@@ -130,7 +136,8 @@
     "./asset/strasbourg2.jpeg",
     "./asset/strasbourg3.jpeg",
     "./asset/strasbourg4.jpeg,",
-    "./asset/strasbourg5.jpeg"]
+    "./asset/strasbourg5.jpeg"],
+    "location": "7.7521, 48.5734"
   },
   "Montpellier": {
     "name": "Montpellier",
@@ -149,7 +156,9 @@
     "./asset/montpellier2.jpeg",
     "./asset/montpellier3.jpeg",
     "./asset/montpellier4.jpeg,",
-    "./asset/montpellier5.jpeg"]
+    "./asset/montpellier5.jpeg"],
+     "location": "3.8767, 43.6108"
+    
   },
   "Bordeaux": {
     "name": "Bordeaux",
@@ -168,7 +177,8 @@
     "./asset/bordeaux2.jpeg",
     "./asset/bordeaux3.jpeg",
     "./asset/bordeaux4.jpeg,",
-    "./asset/bordeaux5.jpeg"]
+    "./asset/bordeaux5.jpeg"],
+    "location": "-0.5792, 44.8378"
   },
   "Lille": {
     "name": "Lille",
@@ -187,7 +197,8 @@
     "./asset/lille2.jpeg",
     "./asset/lille3.jpeg",
     "./asset/lille4.jpeg,",
-    "./asset/lille5.jpeg"]
+    "./asset/lille5.jpeg"],
+     "location": "3.0573, 50.6292"
   },
   "Rennes": {
     "name": "Rennes",
@@ -206,7 +217,8 @@
     "./asset/rennes2.jpeg",
     "./asset/rennes3.jpeg",
     "./asset/rennes4.jpeg,",
-    "./asset/rennes5.jpeg"]
+    "./asset/rennes5.jpeg"],
+    "location": "-1.6778, 48.1173"
   },
   "Toulon": {
     "name": "Toulon",
@@ -225,7 +237,8 @@
     "./asset/toulon2.jpeg",
     "./asset/toulon3.jpeg",
     "./asset/toulon4.jpeg,",
-    "./asset/toulon5.jpeg"]
+    "./asset/toulon5.jpeg"],
+     "location": "5.9280, 43.1242"
   },
   "Reims": {
     "name": "Reims",
@@ -244,7 +257,8 @@
     "./asset/reims2.jpeg",
     "./asset/reims3.jpeg",
     "./asset/reims4.jpeg,",
-    "./asset/reims5.jpeg"]
+    "./asset/reims5.jpeg"],
+    "location": "4.0317, 49.2583"
   },
   "Le Havre": {
     "name": "Le Havre",
@@ -263,7 +277,8 @@
     "./asset/lehavre2.jpeg",
     "./asset/lehavre3.jpeg",
     "./asset/lehavre4.jpeg,",
-    "./asset/lehavre5.jpeg"]
+    "./asset/lehavre5.jpeg"],
+    "location": "0.1079, 49.4944"
   },
   "Saint-Étienne": {
     "name": "Saint-Étienne",
@@ -282,7 +297,8 @@
     "./asset/saintetienne2.jpeg",
     "./asset/saintetienne3.jpeg",
     "./asset/saintetienne4.jpeg,",
-    "./asset/saintetienne5.jpeg"]
+    "./asset/saintetienne5.jpeg"],
+    "location": "4.3872, 45.4397"
   },
   "Clermont-Ferrand": {
     "name": "Clermont-Ferrand",
@@ -301,7 +317,8 @@
     "./asset/clermontferrand2.jpeg",
     "./asset/clermontferrand3.jpeg",
     "./asset/clermontferrand4.jpeg,",
-    "./asset/clermontferrand5.jpeg"]
+    "./asset/clermontferrand5.jpeg"],
+     "location": "3.0870, 45.7772"
   },
   "Tours": {
     "name": "Tours",
@@ -320,7 +337,8 @@
     "./asset/tours2.jpeg",
     "./asset/tours3.jpeg",
     "./asset/tours4.jpeg,",
-    "./asset/tours5.jpeg"]
+    "./asset/tours5.jpeg"],
+     "location": "0.6848, 47.3941"
   },
   "Aix-en-Provence": {
     "name": "Aix-en-Provence",
@@ -339,7 +357,8 @@
     "./asset/aixenprovence2.jpeg",
     "./asset/aixenprovence3.jpeg",
     "./asset/aixenprovence4.jpeg,",
-    "./asset/aixenprovence5.jpeg"]
+    "./asset/aixenprovence5.jpeg"],
+    "location": "5.4474, 43.5297"
   },
   "Brest": {
     "name": "Brest",
@@ -358,7 +377,8 @@
     "./asset/brest2.jpeg",
     "./asset/brest3.jpeg",
     "./asset/brest4.jpeg,",
-    "./asset/brest5.jpeg"]
+    "./asset/brest5.jpeg"],
+    "location": "-4.4861, 48.3904"
   },
   "Grenoble": {
     "name": "Grenoble",
@@ -377,7 +397,8 @@
     "./asset/grenoble2.jpeg",
     "./asset/grenoble3.jpeg",
     "./asset/grenoble4.jpeg,",
-    "./asset/grenoble5.jpeg"]
+    "./asset/grenoble5.jpeg"],
+    "location": "5.7245, 45.1885"
   },
   "Dijon": {
     "name": "Dijon",
@@ -396,7 +417,8 @@
     "./asset/dijon2.jpeg",
     "./asset/dijon3.jpeg",
     "./asset/dijon4.jpeg,",
-    "./asset/dijon5.jpeg"]
+    "./asset/dijon5.jpeg"],
+    "location": "5.0415, 47.3220"
   },
   "Angers": {
     "name": "Angers",
@@ -415,6 +437,7 @@
     "./asset/angers2.jpeg",
     "./asset/angers3.jpeg",
     "./asset/angers4.jpeg,",
-    "./asset/angers5.jpeg"]
+    "./asset/angers5.jpeg"],
+    "location": "-0.5632, 47.4784"
   }
 }
