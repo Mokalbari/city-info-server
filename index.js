@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 });
 
 // Middleware pour servir les fichiers statiques
-app.use('./asset', express.static('asset'));
+app.use("/static", express.static(__dirname + "/asset"));
 
 const normalizeString = (str) =>
   str
