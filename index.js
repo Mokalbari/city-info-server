@@ -1,9 +1,12 @@
 const express = require("express");
+const cors = require("cors");
 const fs = require("fs");
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3000 || 4903;
 
 const cityData = JSON.parse(fs.readFileSync("cities.json", "utf8"));
+
+app.use(cors("*"));
 
 // Basic route to access the data
 app.get("/", (req, res) => {
