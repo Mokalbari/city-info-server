@@ -30,7 +30,12 @@
       "Visiter le quartier du Panier, le plus vieux quartier de la ville.",
       "Faire une randonnée dans les calanques de Marseille.",
       "Explorer les îles du Frioul et le Château d'If."
-    ]
+    ],
+    "img":["./asset/marseille1.jpeg",
+    "./asset/marseille2.jpeg",
+    "./asset/marseille3.jpeg",
+    "./asset/marseille4.jpeg,",
+    "./asset/marseille5.jpeg"]
   },
   "Lyon": {
     "name": "Lyon",
@@ -272,7 +277,12 @@
       "Visiter le musée de la Mine.",
       "Explorer le site Le Corbusier à Firminy.",
       "Découvrir le musée d'art et d'industrie."
-    ]
+    ],
+    "img":["./asset/saintetienne1.jpeg",
+    "./asset/saintetienne2.jpeg",
+    "./asset/saintetienne3.jpeg",
+    "./asset/saintetienne4.jpeg,",
+    "./asset/saintetienne5.jpeg"]
   },
   "Clermont-Ferrand": {
     "name": "Clermont-Ferrand",
@@ -286,7 +296,12 @@
       "Visiter la cathédrale Notre-Dame-de-l'Assomption.",
       "Explorer le parc Vulcania.",
       "Découvrir la basilique Notre-Dame-du-Port."
-    ]
+    ],
+    "img":["./asset/clermontferrand1.jpeg",
+    "./asset/clermontferrand2.jpeg",
+    "./asset/clermontferrand3.jpeg",
+    "./asset/clermontferrand4.jpeg,",
+    "./asset/clermontferrand5.jpeg"]
   },
   "Tours": {
     "name": "Tours",
@@ -300,7 +315,12 @@
       "Visiter la cathédrale Saint-Gatien.",
       "Explorer le château de Tours.",
       "Se promener dans le vieux Tours avec ses maisons à colombages."
-    ]
+    ],
+    "img":["./asset/tours1.jpeg",
+    "./asset/tours2.jpeg",
+    "./asset/tours3.jpeg",
+    "./asset/tours4.jpeg,",
+    "./asset/tours5.jpeg"]
   },
   "Aix-en-Provence": {
     "name": "Aix-en-Provence",
@@ -314,7 +334,12 @@
       "Visiter l'atelier de Cézanne.",
       "Explorer le musée Granet.",
       "Se promener sur le Cours Mirabeau."
-    ]
+    ],
+    "img":["./asset/aixenprovence1.jpeg",
+    "./asset/aixenprovence2.jpeg",
+    "./asset/aixenprovence3.jpeg",
+    "./asset/aixenprovence4.jpeg,",
+    "./asset/aixenprovence5.jpeg"]
   },
   "Brest": {
     "name": "Brest",
@@ -328,7 +353,12 @@
       "Visiter le musée national de la Marine.",
       "Explorer Océanopolis, un parc de découverte des océans.",
       "Découvrir le château de Brest."
-    ]
+    ],
+    "img":["./asset/brest1.jpeg",
+    "./asset/brest2.jpeg",
+    "./asset/brest3.jpeg",
+    "./asset/brest4.jpeg,",
+    "./asset/brest5.jpeg"]
   },
   "Grenoble": {
     "name": "Grenoble",
@@ -342,7 +372,12 @@
       "Prendre les 'bulles' de Grenoble, des téléphériques qui montent à la Bastille.",
       "Visiter le musée de Grenoble.",
       "Faire une randonnée dans le parc naturel régional de Chartreuse."
-    ]
+    ],
+    "img":["./asset/grenoble1.jpeg",
+    "./asset/grenoble2.jpeg",
+    "./asset/grenoble3.jpeg",
+    "./asset/grenoble4.jpeg,",
+    "./asset/grenoble5.jpeg"]
   },
   "Dijon": {
     "name": "Dijon",
@@ -356,7 +391,12 @@
       "Visiter le Palais des ducs et des États de Bourgogne.",
       "Explorer le musée des Beaux-Arts de Dijon.",
       "Découvrir le jardin Darcy et la chouette de Dijon."
-    ]
+    ],
+        "img":["./asset/dijon1.jpeg",
+    "./asset/dijon2.jpeg",
+    "./asset/dijon3.jpeg",
+    "./asset/dijon4.jpeg,",
+    "./asset/dijon5.jpeg"]
   },
   "Angers": {
     "name": "Angers",
@@ -370,6 +410,11 @@
       "Visiter le château d'Angers.",
       "Explorer le musée Jean-Lurçat et de la tapisserie contemporaine.",
       "Se promener dans le jardin des plantes d'Angers."
-    ]
+    ],
+    "img":["./asset/angers1.jpeg",
+    "./asset/angers2.jpeg",
+    "./asset/angers3.jpeg",
+    "./asset/angers4.jpeg,",
+    "./asset/angers5.jpeg"]
   }
 }
