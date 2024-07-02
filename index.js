@@ -13,6 +13,9 @@ app.get("/", (req, res) => {
   res.send(cityData);
 });
 
+// Middleware pour servir les fichiers statiques
+app.use('./asset', express.static('asset'));
+
 const normalizeString = (str) =>
   str
     .toLowerCase()
