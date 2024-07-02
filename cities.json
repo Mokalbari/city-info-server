@@ -30,8 +30,7 @@
       "Visiter le quartier du Panier, le plus vieux quartier de la ville.",
       "Faire une randonnée dans les calanques de Marseille.",
       "Explorer les îles du Frioul et le Château d'If."
-    ],
-    "img":[]
+    ]
   },
   "Lyon": {
     "name": "Lyon",
@@ -88,8 +87,7 @@
     "./asset/nice2.jpeg",
     "./asset/nice3.jpeg",
     "./asset/nice4.jpeg,",
-    "./asset/nice5.jpeg"
-  ]
+    "./asset/nice5.jpeg"]
   },
   "Nantes": {
     "name": "Nantes",
@@ -108,8 +106,7 @@
     "./asset/nantes2.jpeg",
     "./asset/nantes3.jpeg",
     "./asset/nantes4.jpeg,",
-    "./asset/nantes5.jpeg"
-  ]
+    "./asset/nantes5.jpeg"]
   },
   "Strasbourg": {
     "name": "Strasbourg",
@@ -123,7 +120,12 @@
       "Visiter la cathédrale Notre-Dame de Strasbourg.",
       "Se promener dans le quartier de la Petite France.",
       "Découvrir le musée Alsacien pour en savoir plus sur la culture locale."
-    ]
+    ],
+    "img":["./asset/strasbourg1.jpeg",
+    "./asset/strasbourg2.jpeg",
+    "./asset/strasbourg3.jpeg",
+    "./asset/strasbourg4.jpeg,",
+    "./asset/strasbourg5.jpeg"]
   },
   "Montpellier": {
     "name": "Montpellier",
@@ -137,7 +139,12 @@
       "Explorer le centre historique de Montpellier, notamment la Place de la Comédie.",
       "Visiter le musée Fabre, un des principaux musées d'art de France.",
       "Découvrir le jardin des plantes de Montpellier, l'un des plus anciens jardins botaniques d'Europe."
-    ]
+    ],
+    "img":["./asset/montpellier1.jpeg",
+    "./asset/montpellier2.jpeg",
+    "./asset/montpellier3.jpeg",
+    "./asset/montpellier4.jpeg,",
+    "./asset/montpellier5.jpeg"]
   },
   "Bordeaux": {
     "name": "Bordeaux",
@@ -151,7 +158,12 @@
       "Visiter la Cité du Vin, un musée consacré à la culture du vin.",
       "Faire une croisière sur la Garonne.",
       "Découvrir la Place de la Bourse et son miroir d'eau."
-    ]
+    ],
+    "img":["./asset/bordeaux1.jpeg",
+    "./asset/bordeaux2.jpeg",
+    "./asset/bordeaux3.jpeg",
+    "./asset/bordeaux4.jpeg,",
+    "./asset/bordeaux5.jpeg"]
   },
   "Lille": {
     "name": "Lille",
@@ -165,7 +177,12 @@
       "Visiter le palais des Beaux-Arts de Lille.",
       "Explorer le vieux Lille avec ses rues pavées et ses bâtiments historiques.",
       "Découvrir la citadelle de Lille, un chef-d'œuvre de l'architecture militaire."
-    ]
+    ],
+    "img":["./asset/lille1.jpeg",
+    "./asset/lille2.jpeg",
+    "./asset/lille3.jpeg",
+    "./asset/lille4.jpeg,",
+    "./asset/lille5.jpeg"]
   },
   "Rennes": {
     "name": "Rennes",
@@ -179,7 +196,12 @@
       "Visiter le Parlement de Bretagne.",
       "Explorer le parc du Thabor, un des plus beaux jardins de France.",
       "Découvrir le marché des Lices, l'un des plus grands marchés de France."
-    ]
+    ],
+    "img":["./asset/rennes1.jpeg",
+    "./asset/rennes2.jpeg",
+    "./asset/rennes3.jpeg",
+    "./asset/rennes4.jpeg,",
+    "./asset/rennes5.jpeg"]
   },
   "Toulon": {
     "name": "Toulon",
@@ -193,7 +215,12 @@
       "Visiter le Musée National de la Marine.",
       "Prendre le téléphérique du Mont Faron pour une vue panoramique.",
       "Explorer le marché du Cours Lafayette."
-    ]
+    ],
+    "img":["./asset/toulon1.jpeg",
+    "./asset/toulon2.jpeg",
+    "./asset/toulon3.jpeg",
+    "./asset/toulon4.jpeg,",
+    "./asset/toulon5.jpeg"]
   },
   "Reims": {
     "name": "Reims",
@@ -207,7 +234,12 @@
       "Visiter la cathédrale Notre-Dame de Reims.",
       "Explorer les caves de champagne.",
       "Découvrir le Palais du Tau."
-    ]
+    ],
+    "img":["./asset/reims1.jpeg",
+    "./asset/reims2.jpeg",
+    "./asset/reims3.jpeg",
+    "./asset/reims4.jpeg,",
+    "./asset/reims5.jpeg"]
   },
   "Le Havre": {
     "name": "Le Havre",
@@ -221,7 +253,12 @@
       "Visiter le musée d'art moderne André Malraux.",
       "Explorer les jardins suspendus.",
       "Faire une promenade sur la plage du Havre."
-    ]
+    ],
+    "img":["./asset/lehavre1.jpeg",
+    "./asset/lehavre2.jpeg",
+    "./asset/lehavre3.jpeg",
+    "./asset/lehavre4.jpeg,",
+    "./asset/lehavre5.jpeg"]
   },
   "Saint-Étienne": {
     "name": "Saint-Étienne",
