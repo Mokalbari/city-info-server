@@ -11,7 +11,12 @@
       "Visiter les égouts de Paris pour découvrir l'histoire de son système d'assainissement.",
       "Explorer les passages couverts comme le Passage des Panoramas pour une expérience de shopping unique.",
       "Découvrir les catacombes de Paris, un réseau souterrain rempli d'ossements humains."
-    ]
+    ],
+    "img": ["./asset/Paris1.jpeg",
+      "./asset/Paris2.jpg",
+      "./asset/Paris3.jpg",
+      "./asset/Paris4.jpeg",
+      "./asset/Paris5.jpeg"]
   },
   "Marseille": {
     "name": "Marseille",
@@ -25,7 +30,8 @@
       "Visiter le quartier du Panier, le plus vieux quartier de la ville.",
       "Faire une randonnée dans les calanques de Marseille.",
       "Explorer les îles du Frioul et le Château d'If."
-    ]
+    ],
+    "img":[]
   },
   "Lyon": {
     "name": "Lyon",
@@ -39,7 +45,12 @@
       "Découvrir les traboules, des passages secrets entre les immeubles.",
       "Visiter le musée des Confluences pour une expérience unique de sciences naturelles et d'anthropologie.",
       "Monter à la basilique de Fourvière pour une vue panoramique de la ville."
-    ]
+    ],
+    "img":["./asset/Lyon1.jpeg", 
+    "./asset/Lyon2.jpeg",
+    "./asset/Lyon3.jpeg",
+    "./asset/Lyon4.jpeg",
+    "./asset/Lyon5.jpeg"]
   },
   "Toulouse": {
     "name": "Toulouse",
@@ -53,7 +64,12 @@
       "Visiter la Cité de l'espace, un parc à thème dédié à l'exploration spatiale.",
       "Faire une croisière sur le Canal du Midi.",
       "Découvrir l'architecture gothique de la basilique Saint-Sernin."
-    ]
+    ],
+    "img":["./asset/toulouse1.jpeg",
+      "./asset/toulouse2.jpeg",
+      "./asset/toulouse3.jpeg",
+      "./asset/toulouse4.jpeg",
+      "./asset/toulouse5.jpeg"]
   },
   "Nice": {
     "name": "Nice",
@@ -67,7 +83,13 @@
       "Se promener sur la Promenade des Anglais.",
       "Visiter le marché aux fleurs du Cours Saleya.",
       "Explorer le parc du Château pour une vue imprenable sur la baie."
-    ]
+    ],
+    "img":["./asset/nice1.jpeg",
+    "./asset/nice2.jpeg",
+    "./asset/nice3.jpeg",
+    "./asset/nice4.jpeg,",
+    "./asset/nice5.jpeg"
+  ]
   },
   "Nantes": {
     "name": "Nantes",
@@ -81,7 +103,13 @@
       "Découvrir les Machines de l'île, une exposition de sculptures mécaniques.",
       "Visiter le château des ducs de Bretagne.",
       "Se promener dans le jardin des plantes de Nantes."
-    ]
+    ],
+    "img":["./asset/nantes1.jpeg",
+    "./asset/nantes2.jpeg",
+    "./asset/nantes3.jpeg",
+    "./asset/nantes4.jpeg,",
+    "./asset/nantes5.jpeg"
+  ]
   },
   "Strasbourg": {
     "name": "Strasbourg",
