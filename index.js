@@ -1,12 +1,78 @@
 const express = require("express");
 const cors = require("cors");
 const fs = require("fs");
+const bodyParser = require('body-parser');
+const jwt = require('jsonwebtoken');
+const bcrypt = require('bcryptjs');
+
+const SECRET_KEY = 'test123';
+
+
 const app = express();
 const port = process.env.PORT || 4903;
 
 const cityData = JSON.parse(fs.readFileSync("cities.json", "utf8"));
 
-app.use(cors("*"));
+app.use(cors());
+
+
+//authentification
+app.use(bodyParser.json());
+
+const getUsers = () => {
+    const data = fs.readFileSync('user.json');
+    return JSON.parse(data);
+};
+
+app.post('/login', (req, res) => {
+  const { email, password } = req.body;
+  const users = getUsers();
+
+  const foundUser = users.find(u => u.email === email);
+  if (!foundUser) {
+      return res.status(401).json({ message: 'Authentication failed' });
+  }
+
+  const isPasswordValid = bcrypt.compareSync(password, foundUser.password);
+  if (!isPasswordValid) {
+      return res.status(401).json({ message: 'Authentication failed' });
+  }
+
+  const token = jwt.sign({ id: foundUser.id, email: foundUser.email, name: foundUser.name }, SECRET_KEY, { expiresIn: '1h' });
+  res.json({ token });
+});
+
+const authenticateJWT = (req, res, next) => {
+  const token = req.header('Authorization');
+
+  if (!token) {
+      return res.status(401).json({ message: 'Access denied' });
+  }
+
+  try {
+      const decoded = jwt.verify(token, SECRET_KEY);
+      req.user = decoded;
+      next();
+  } catch (err) {
+      res.status(400).json({ message: 'Invalid token' });
+  }
+};
+
+app.get('/user', authenticateJWT, (req, res) => {
+  const users = getUsers();
+  const foundUser = users.find(u => u.id === req.user.id);
+
+  if (!foundUser) {
+      return res.status(404).json({ message: 'User not found' });
+  }
+
+  res.json({ id: foundUser.id, name: foundUser.name, email: foundUser.email });
+});
+
+//authentification
+
+
+
 
 // Basic route to access the data
 app.get("/", (req, res) => {
