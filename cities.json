@@ -19,6 +19,7 @@
       "http://localhost:4903/static/Paris4.jpeg",
       "http://localhost:4903/static/Paris5.jpeg"
     ],
+    "video" : "http://localhost:4903/static/Paris.mp4",
     "location": "2.3522, 48.8566"
   },
   "Marseille": {
@@ -41,6 +42,7 @@
       "http://localhost:4903/static/marseille4.jpg,",
       "http://localhost:4903/static/marseille5.jpeg"
     ],
+    "video":"http://localhost:4903/static/marseille.mp4",
     "location": "5.3698, 43.2965"
   },
   "Lyon": {
@@ -63,6 +65,7 @@
       "http://localhost:4903/static/Lyon4.jpeg",
       "http://localhost:4903/static/Lyon5.jpeg"
     ],
+    "video":"http://localhost:4903/static/lyon.mp4",
     "location": "4.8357, 45.7640"
   },
   "Toulouse": {
@@ -85,6 +88,7 @@
       "http://localhost:4903/static/toulouse4.jpeg",
       "http://localhost:4903/static/toulouse5.jpeg"
     ],
+    "video":"http://localhost:4903/static/toulouse.mp4",
     "location": "1.4442, 43.6047"
   },
   "Nice": {
@@ -107,6 +111,7 @@
       "http://localhost:4903/static/nice4.jpeg,",
       "http://localhost:4903/static/nice5.jpeg"
     ],
+    "video":"http://localhost:4903/static/nice.mp4",
     "location": "7.2620, 43.7102"
   },
   "Nantes": {
@@ -129,6 +134,7 @@
       "http://localhost:4903/static/nantes4.jpeg,",
       "http://localhost:4903/static/nantes5.jpeg"
     ],
+    "video":"http://localhost:4903/static/nantes.mp4",
     "location": "-1.5536, 47.2184"
   },
   "Strasbourg": {
@@ -151,6 +157,7 @@
       "http://localhost:4903/static/strasbourg4.jpeg,",
       "http://localhost:4903/static/strasbourg5.jpeg"
     ],
+    "video":"http://localhost:4903/static/strasbourg.mp4",
     "location": "7.7521, 48.5734"
   },
   "Montpellier": {
@@ -173,6 +180,7 @@
       "http://localhost:4903/static/montpellier4.jpeg,",
       "http://localhost:4903/static/montpellier5.jpeg"
     ],
+    "video":"http://localhost:4903/static/montpellier.mp4",
     "location": "3.8767, 43.6108"
   },
   "Bordeaux": {
@@ -195,6 +203,7 @@
       "http://localhost:4903/static/bordeaux4.webp,",
       "http://localhost:4903/static/bordeaux5.jpeg"
     ],
+    "video":"http://localhost:4903/static/bordeaux.mp4",
     "location": "-0.5792, 44.8378"
   },
   "Lille": {
@@ -217,6 +226,7 @@
       "http://localhost:4903/static/lille4.jpeg,",
       "http://localhost:4903/static/lille5.jpeg"
     ],
+    "video":"http://localhost:4903/static/lille.mp4",
     "location": "3.0573, 50.6292"
   },
   "Rennes": {
@@ -239,6 +249,7 @@
       "http://localhost:4903/static/rennes4.jpeg,",
       "http://localhost:4903/static/rennes5.jpeg"
     ],
+    "video":"http://localhost:4903/static/rennes.mp4",
     "location": "-1.6778, 48.1173"
   },
   "Toulon": {
@@ -261,6 +272,7 @@
       "http://localhost:4903/static/toulon4.jpeg,",
       "http://localhost:4903/static/toulon5.jpeg"
     ],
+    "video":"http://localhost:4903/static/toulon.mp4",
     "location": "5.9280, 43.1242"
   },
   "Reims": {
@@ -283,6 +295,7 @@
       "http://localhost:4903/static/reims4.jpeg,",
       "http://localhost:4903/static/reims5.jpeg"
     ],
+    "video":"http://localhost:4903/static/reims.mp4",
     "location": "4.0317, 49.2583"
   },
   "Le Havre": {
@@ -305,6 +318,7 @@
       "http://localhost:4903/static/lehavre4.jpeg,",
       "http://localhost:4903/static/lehavre5.jpeg"
     ],
+    "video":"http://localhost:4903/static/reims.mp4",
     "location": "0.1079, 49.4944"
   },
   "Saint-Étienne": {
@@ -327,6 +341,7 @@
       "http://localhost:4903/static/saintetienne4.jpg,",
       "http://localhost:4903/static/saintetienne5.jpg"
     ],
+    "video":"http://localhost:4903/static/stetienne.mp4",
     "location": "4.3872, 45.4397"
   },
   "Clermont-Ferrand": {
@@ -349,6 +364,7 @@
       "http://localhost:4903/static/clermontferrand4.jpg,",
       "http://localhost:4903/static/clermontferrand5.jpg"
     ],
+    "video":"http://localhost:4903/static/clermont.mp4",
     "location": "3.0870, 45.7772"
   },
   "Tours": {
@@ -371,6 +387,7 @@
       "http://localhost:4903/static/tours4.jpg,",
       "http://localhost:4903/static/tours5.jpg"
     ],
+    "video":"http://localhost:4903/static/tours.mp4",
     "location": "0.6848, 47.3941"
   },
   "Aix-en-Provence": {
@@ -393,6 +410,7 @@
       "http://localhost:4903/static/aixenprovence4.jpg,",
       "http://localhost:4903/static/aixenprovence5.jpg"
     ],
+    "video":"http://localhost:4903/static/aix.mp4",
     "location": "5.4474, 43.5297"
   },
   "Brest": {
@@ -415,6 +433,7 @@
       "http://localhost:4903/static/brest4.jpg,",
       "http://localhost:4903/static/brest5.jpg"
     ],
+    "video":"http://localhost:4903/static/brest.mp4",
     "location": "-4.4861, 48.3904"
   },
   "Grenoble": {
@@ -437,6 +456,7 @@
       "http://localhost:4903/static/grenoble4.jpg,",
       "http://localhost:4903/static/grenoble5.jpg"
     ],
+    "video":"http://localhost:4903/static/grenoble.mp4",
     "location": "5.7245, 45.1885"
   },
   "Dijon": {
@@ -459,6 +479,7 @@
       "http://localhost:4903/static/dijon4.jpeg,",
       "http://localhost:4903/static/dijon5.jpeg"
     ],
+    "video":"http://localhost:4903/static/dijon.mp4",
     "location": "5.0415, 47.3220"
   },
   "Angers": {
@@ -481,6 +502,7 @@
       "http://localhost:4903/static/angers4.jpg,",
       "http://localhost:4903/static/angers5.jpg"
     ],
+    "video":"http://localhost:4903/static/angers.mp4",
     "location": "-0.5632, 47.4784"
   }
 }
