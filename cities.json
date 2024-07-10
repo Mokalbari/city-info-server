@@ -19,7 +19,8 @@
       "http://localhost:4903/static/Paris4.jpeg",
       "http://localhost:4903/static/Paris5.jpeg"
     ],
-    "location": "2.3522, 48.8566"
+    "location": "2.3522, 48.8566",
+    "description": "Paris est célèbre pour son architecture emblématique et ses musées renommés tels que le Louvre."
   },
   "Marseille": {
     "name": "Marseille",
@@ -38,10 +39,11 @@
       "http://localhost:4903/static/marseille1.jpg",
       "http://localhost:4903/static/marseille2.jpeg",
       "http://localhost:4903/static/marseille3.jpeg",
-      "http://localhost:4903/static/marseille4.jpg,",
+      "http://localhost:4903/static/marseille4.jpg",
       "http://localhost:4903/static/marseille5.jpeg"
     ],
-    "location": "5.3698, 43.2965"
+    "location": "5.3698, 43.2965",
+    "description": "Marseille est connue pour ses calanques spectaculaires et son ambiance portuaire animée."
   },
   "Lyon": {
     "name": "Lyon",
@@ -63,7 +65,8 @@
       "http://localhost:4903/static/Lyon4.jpeg",
       "http://localhost:4903/static/Lyon5.jpeg"
     ],
-    "location": "4.8357, 45.7640"
+    "location": "4.8357, 45.7640",
+    "description": "Lyon combine patrimoine historique, culture vibrante et délicieuses spécialités gastronomiques."
   },
   "Toulouse": {
     "name": "Toulouse",
@@ -85,7 +88,8 @@
       "http://localhost:4903/static/toulouse4.jpeg",
       "http://localhost:4903/static/toulouse5.jpeg"
     ],
-    "location": "1.4442, 43.6047"
+    "location": "1.4442, 43.6047",
+    "description": "Toulouse, la 'Ville Rose', est célèbre pour ses briques roses et son riche patrimoine aérospatial."
   },
   "Nice": {
     "name": "Nice",
@@ -104,10 +108,11 @@
       "http://localhost:4903/static/nice1.jpeg",
       "http://localhost:4903/static/nice2.jpeg",
       "http://localhost:4903/static/nice3.jpeg",
-      "http://localhost:4903/static/nice4.jpeg,",
+      "http://localhost:4903/static/nice4.jpeg",
       "http://localhost:4903/static/nice5.jpeg"
     ],
-    "location": "7.2620, 43.7102"
+    "location": "7.2620, 43.7102",
+    "description": "Nice est renommée pour ses plages méditerranéennes et sa promenade célèbre le long de la mer."
   },
   "Nantes": {
     "name": "Nantes",
@@ -126,10 +131,11 @@
       "http://localhost:4903/static/nantes1.jpeg",
       "http://localhost:4903/static/nantes2.jpeg",
       "http://localhost:4903/static/nantes3.jpeg",
-      "http://localhost:4903/static/nantes4.jpeg,",
+      "http://localhost:4903/static/nantes4.jpeg",
       "http://localhost:4903/static/nantes5.jpeg"
     ],
-    "location": "-1.5536, 47.2184"
+    "location": "-1.5536, 47.2184",
+    "description": "Nantes, ville natale de Jules Verne, allie histoire, culture et innovations artistiques."
   },
   "Strasbourg": {
     "name": "Strasbourg",
@@ -148,10 +154,11 @@
       "http://localhost:4903/static/strasbourg1.jpeg",
       "http://localhost:4903/static/strasbourg2.jpeg",
       "http://localhost:4903/static/strasbourg3.jpeg",
-      "http://localhost:4903/static/strasbourg4.jpeg,",
+      "http://localhost:4903/static/strasbourg4.jpeg",
       "http://localhost:4903/static/strasbourg5.jpeg"
     ],
-    "location": "7.7521, 48.5734"
+    "location": "7.7521, 48.5734",
+    "description": "Strasbourg, avec sa cathédrale majestueuse, est un carrefour culturel entre la France et l'Allemagne."
   },
   "Montpellier": {
     "name": "Montpellier",
@@ -170,10 +177,11 @@
       "http://localhost:4903/static/montpellier1.jpeg",
       "http://localhost:4903/static/montpellier2.jpeg",
       "http://localhost:4903/static/montpellier3.jpeg",
-      "http://localhost:4903/static/montpellier4.jpeg,",
+      "http://localhost:4903/static/montpellier4.jpeg",
       "http://localhost:4903/static/montpellier5.jpeg"
     ],
-    "location": "3.8767, 43.6108"
+    "location": "3.8767, 43.6108",
+    "description": "Montpellier, ville étudiante dynamique, offre un mélange d'histoire médiévale et de modernité."
   },
   "Bordeaux": {
     "name": "Bordeaux",
@@ -192,10 +200,11 @@
       "http://localhost:4903/static/bordeaux1.jpeg",
       "http://localhost:4903/static/bordeaux2.webp",
       "http://localhost:4903/static/bordeaux3.jpeg",
-      "http://localhost:4903/static/bordeaux4.webp,",
+      "http://localhost:4903/static/bordeaux4.webp",
       "http://localhost:4903/static/bordeaux5.jpeg"
     ],
-    "location": "-0.5792, 44.8378"
+    "location": "-0.5792, 44.8378",
+    "description": "Bordeaux, capitale mondiale du vin, enchante par son architecture et ses vignobles prestigieux."
   },
   "Lille": {
     "name": "Lille",
@@ -214,10 +223,11 @@
       "http://localhost:4903/static/lille1.jpeg",
       "http://localhost:4903/static/lille2.jpeg",
       "http://localhost:4903/static/lille3.jpeg",
-      "http://localhost:4903/static/lille4.jpeg,",
+      "http://localhost:4903/static/lille4.jpeg",
       "http://localhost:4903/static/lille5.jpeg"
     ],
-    "location": "3.0573, 50.6292"
+    "location": "3.0573, 50.6292",
+    "description": "Lille est dynamique et culturelle, réputée pour ses musées et son architecture flamande."
   },
   "Rennes": {
     "name": "Rennes",
@@ -236,10 +246,11 @@
       "http://localhost:4903/static/rennes1.jpeg",
       "http://localhost:4903/static/rennes2.jpeg",
       "http://localhost:4903/static/rennes3.jpeg",
-      "http://localhost:4903/static/rennes4.jpeg,",
+      "http://localhost:4903/static/rennes4.jpeg",
       "http://localhost:4903/static/rennes5.jpeg"
     ],
-    "location": "-1.6778, 48.1173"
+    "location": "-1.6778, 48.1173",
+    "description": "Rennes, ville bretonne, est célèbre pour son marché animé et ses magnifiques jardins."
   },
   "Toulon": {
     "name": "Toulon",
@@ -258,10 +269,11 @@
       "http://localhost:4903/static/toulon1.jpeg",
       "http://localhost:4903/static/toulon2.jpeg",
       "http://localhost:4903/static/toulon3.jpeg",
-      "http://localhost:4903/static/toulon4.jpeg,",
+      "http://localhost:4903/static/toulon4.jpeg",
       "http://localhost:4903/static/toulon5.jpeg"
     ],
-    "location": "5.9280, 43.1242"
+    "location": "5.9280, 43.1242",
+    "description": "Toulon, avec son port militaire historique, offre des vues panoramiques exceptionnelles."
   },
   "Reims": {
     "name": "Reims",
@@ -280,10 +292,11 @@
       "http://localhost:4903/static/reims1.jpeg",
       "http://localhost:4903/static/reims2.jpeg",
       "http://localhost:4903/static/reims3.jpeg",
-      "http://localhost:4903/static/reims4.jpeg,",
+      "http://localhost:4903/static/reims4.jpeg",
       "http://localhost:4903/static/reims5.jpeg"
     ],
-    "location": "4.0317, 49.2583"
+    "location": "4.0317, 49.2583",
+    "description": "Reims, la 'Cité des Sacres', est célèbre pour ses caves de champagne et sa cathédrale."
   },
   "Le Havre": {
     "name": "Le Havre",
@@ -302,10 +315,11 @@
       "http://localhost:4903/static/lehavre1.jpeg",
       "http://localhost:4903/static/lehavre2.jpeg",
       "http://localhost:4903/static/lehavre3.jpeg",
-      "http://localhost:4903/static/lehavre4.jpeg,",
+      "http://localhost:4903/static/lehavre4.jpeg",
       "http://localhost:4903/static/lehavre5.jpeg"
     ],
-    "location": "0.1079, 49.4944"
+    "location": "0.1079, 49.4944",
+    "description": "Le Havre, au bord de la mer, est reconnu pour son architecture moderne et ses fruits de mer."
   },
   "Saint-Étienne": {
     "name": "Saint-Étienne",
@@ -324,10 +338,11 @@
       "http://localhost:4903/static/saintetienne1.jpg",
       "http://localhost:4903/static/saintetienne2.jpg",
       "http://localhost:4903/static/saintetienne3.jpg",
-      "http://localhost:4903/static/saintetienne4.jpg,",
+      "http://localhost:4903/static/saintetienne4.jpg",
       "http://localhost:4903/static/saintetienne5.jpg"
     ],
-    "location": "4.3872, 45.4397"
+    "location": "4.3872, 45.4397",
+    "description": "Saint-Étienne est marquée par son histoire industrielle et ses innovations en design."
   },
   "Clermont-Ferrand": {
     "name": "Clermont-Ferrand",
@@ -346,10 +361,11 @@
       "http://localhost:4903/static/clermontferrand1.jpg",
       "http://localhost:4903/static/clermontferrand2.jpg",
       "http://localhost:4903/static/clermontferrand3.jpg",
-      "http://localhost:4903/static/clermontferrand4.jpg,",
+      "http://localhost:4903/static/clermontferrand4.jpg",
       "http://localhost:4903/static/clermontferrand5.jpg"
     ],
-    "location": "3.0870, 45.7772"
+    "location": "3.0870, 45.7772",
+    "description": "Clermont-Ferrand, ville volcanique, offre un panorama unique sur les Puys et des spécialités auvergnates."
   },
   "Tours": {
     "name": "Tours",
@@ -368,10 +384,11 @@
       "http://localhost:4903/static/tours1.jpg",
       "http://localhost:4903/static/tours2.jpg",
       "http://localhost:4903/static/tours3.jpg",
-      "http://localhost:4903/static/tours4.jpg,",
+      "http://localhost:4903/static/tours4.jpg",
       "http://localhost:4903/static/tours5.jpg"
     ],
-    "location": "0.6848, 47.3941"
+    "location": "0.6848, 47.3941",
+    "description": "Tours, souvent appelée 'jardin de la France', est réputée pour ses parcs et son patrimoine historique."
   },
   "Aix-en-Provence": {
     "name": "Aix-en-Provence",
@@ -390,10 +407,11 @@
       "http://localhost:4903/static/aixenprovence1.jpg",
       "http://localhost:4903/static/aixenprovence2.jpg",
       "http://localhost:4903/static/aixenprovence3.jpg",
-      "http://localhost:4903/static/aixenprovence4.jpg,",
+      "http://localhost:4903/static/aixenprovence4.jpg",
       "http://localhost:4903/static/aixenprovence5.jpg"
     ],
-    "location": "5.4474, 43.5297"
+    "location": "5.4474, 43.5297",
+    "description": "Aix-en-Provence est renommée pour ses fontaines, son ambiance artistique et ses marchés colorés."
   },
   "Brest": {
     "name": "Brest",
@@ -412,10 +430,11 @@
       "http://localhost:4903/static/brest1.jpeg",
       "http://localhost:4903/static/brest2.jpeg",
       "http://localhost:4903/static/brest3.jpeg",
-      "http://localhost:4903/static/brest4.jpg,",
+      "http://localhost:4903/static/brest4.jpg",
       "http://localhost:4903/static/brest5.jpg"
     ],
-    "location": "-4.4861, 48.3904"
+    "location": "-4.4861, 48.3904",
+    "description": "Brest, port maritime stratégique, est célèbre pour ses crêpes et son riche patrimoine nautique."
   },
   "Grenoble": {
     "name": "Grenoble",
@@ -434,10 +453,11 @@
       "http://localhost:4903/static/grenoble1.jpg",
       "http://localhost:4903/static/grenoble2.jpg",
       "http://localhost:4903/static/grenoble3.jpg",
-      "http://localhost:4903/static/grenoble4.jpg,",
+      "http://localhost:4903/static/grenoble4.jpg",
       "http://localhost:4903/static/grenoble5.jpg"
     ],
-    "location": "5.7245, 45.1885"
+    "location": "5.7245, 45.1885",
+    "description": "Grenoble, entourée de montagnes, est idéale pour les amateurs de sports d'hiver et de nature."
   },
   "Dijon": {
     "name": "Dijon",
@@ -456,10 +476,11 @@
       "http://localhost:4903/static/dijon1.jpeg",
       "http://localhost:4903/static/dijon2.jpeg",
       "http://localhost:4903/static/dijon3.jpeg",
-      "http://localhost:4903/static/dijon4.jpeg,",
+      "http://localhost:4903/static/dijon4.jpeg",
       "http://localhost:4903/static/dijon5.jpeg"
     ],
-    "location": "5.0415, 47.3220"
+    "location": "5.0415, 47.3220",
+    "description": "Dijon, capitale de la Bourgogne, est renommée pour ses vins prestigieux et sa moutarde piquante."
   },
   "Angers": {
     "name": "Angers",
@@ -478,9 +499,10 @@
       "http://localhost:4903/static/angers1.jpg",
       "http://localhost:4903/static/angers2.jpg",
       "http://localhost:4903/static/angers3.jpg",
-      "http://localhost:4903/static/angers4.jpg,",
+      "http://localhost:4903/static/angers4.jpg",
       "http://localhost:4903/static/angers5.jpg"
     ],
-    "location": "-0.5632, 47.4784"
+    "location": "-0.5632, 47.4784",
+    "description": "Angers, ville d'art et d'histoire, se distingue par sa célèbre tapisserie médiévale."
   }
 }
