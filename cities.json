@@ -19,6 +19,7 @@
       "http://localhost:4903/static/Paris4.jpeg",
       "http://localhost:4903/static/Paris5.jpeg"
     ],
+    "video" : "http://localhost:4903/static/Paris.mp4",
     "location": "2.3522, 48.8566",
     "description": "Paris est célèbre pour son architecture emblématique et ses musées renommés tels que le Louvre."
   },
@@ -42,6 +43,7 @@
       "http://localhost:4903/static/marseille4.jpg",
       "http://localhost:4903/static/marseille5.jpeg"
     ],
+    "video":"http://localhost:4903/static/marseille.mp4",
     "location": "5.3698, 43.2965",
     "description": "Marseille est connue pour ses calanques spectaculaires et son ambiance portuaire animée."
   },
@@ -65,6 +67,7 @@
       "http://localhost:4903/static/Lyon4.jpeg",
       "http://localhost:4903/static/Lyon5.jpeg"
     ],
+    "video":"http://localhost:4903/static/lyon.mp4",
     "location": "4.8357, 45.7640",
     "description": "Lyon combine patrimoine historique, culture vibrante et délicieuses spécialités gastronomiques."
   },
@@ -88,6 +91,7 @@
       "http://localhost:4903/static/toulouse4.jpeg",
       "http://localhost:4903/static/toulouse5.jpeg"
     ],
+    "video":"http://localhost:4903/static/toulouse.mp4",
     "location": "1.4442, 43.6047",
     "description": "Toulouse, la 'Ville Rose', est célèbre pour ses briques roses et son riche patrimoine aérospatial."
   },
@@ -111,6 +115,7 @@
       "http://localhost:4903/static/nice4.jpeg",
       "http://localhost:4903/static/nice5.jpeg"
     ],
+    "video":"http://localhost:4903/static/nice.mp4",
     "location": "7.2620, 43.7102",
     "description": "Nice est renommée pour ses plages méditerranéennes et sa promenade célèbre le long de la mer."
   },
@@ -134,6 +139,7 @@
       "http://localhost:4903/static/nantes4.jpeg",
       "http://localhost:4903/static/nantes5.jpeg"
     ],
+    "video":"http://localhost:4903/static/nantes.mp4",
     "location": "-1.5536, 47.2184",
     "description": "Nantes, ville natale de Jules Verne, allie histoire, culture et innovations artistiques."
   },
@@ -157,6 +163,7 @@
       "http://localhost:4903/static/strasbourg4.jpeg",
       "http://localhost:4903/static/strasbourg5.jpeg"
     ],
+    "video":"http://localhost:4903/static/strasbourg.mp4",
     "location": "7.7521, 48.5734",
     "description": "Strasbourg, avec sa cathédrale majestueuse, est un carrefour culturel entre la France et l'Allemagne."
   },
@@ -180,6 +187,7 @@
       "http://localhost:4903/static/montpellier4.jpeg",
       "http://localhost:4903/static/montpellier5.jpeg"
     ],
+    "video":"http://localhost:4903/static/montpellier.mp4",
     "location": "3.8767, 43.6108",
     "description": "Montpellier, ville étudiante dynamique, offre un mélange d'histoire médiévale et de modernité."
   },
@@ -203,6 +211,7 @@
       "http://localhost:4903/static/bordeaux4.webp",
       "http://localhost:4903/static/bordeaux5.jpeg"
     ],
+    "video":"http://localhost:4903/static/bordeaux.mp4",
     "location": "-0.5792, 44.8378",
     "description": "Bordeaux, capitale mondiale du vin, enchante par son architecture et ses vignobles prestigieux."
   },
@@ -226,6 +235,7 @@
       "http://localhost:4903/static/lille4.jpeg",
       "http://localhost:4903/static/lille5.jpeg"
     ],
+    "video":"http://localhost:4903/static/lille.mp4",
     "location": "3.0573, 50.6292",
     "description": "Lille est dynamique et culturelle, réputée pour ses musées et son architecture flamande."
   },
@@ -249,6 +259,7 @@
       "http://localhost:4903/static/rennes4.jpeg",
       "http://localhost:4903/static/rennes5.jpeg"
     ],
+    "video":"http://localhost:4903/static/rennes.mp4",
     "location": "-1.6778, 48.1173",
     "description": "Rennes, ville bretonne, est célèbre pour son marché animé et ses magnifiques jardins."
   },
@@ -272,6 +283,7 @@
       "http://localhost:4903/static/toulon4.jpeg",
       "http://localhost:4903/static/toulon5.jpeg"
     ],
+    "video":"http://localhost:4903/static/toulon.mp4",
     "location": "5.9280, 43.1242",
     "description": "Toulon, avec son port militaire historique, offre des vues panoramiques exceptionnelles."
   },
@@ -295,6 +307,7 @@
       "http://localhost:4903/static/reims4.jpeg",
       "http://localhost:4903/static/reims5.jpeg"
     ],
+    "video":"http://localhost:4903/static/reims.mp4",
     "location": "4.0317, 49.2583",
     "description": "Reims, la 'Cité des Sacres', est célèbre pour ses caves de champagne et sa cathédrale."
   },
@@ -318,6 +331,7 @@
       "http://localhost:4903/static/lehavre4.jpeg",
       "http://localhost:4903/static/lehavre5.jpeg"
     ],
+    "video":"http://localhost:4903/static/reims.mp4",
     "location": "0.1079, 49.4944",
     "description": "Le Havre, au bord de la mer, est reconnu pour son architecture moderne et ses fruits de mer."
   },
@@ -341,6 +355,7 @@
       "http://localhost:4903/static/saintetienne4.jpg",
       "http://localhost:4903/static/saintetienne5.jpg"
     ],
+    "video":"http://localhost:4903/static/stetienne.mp4",
     "location": "4.3872, 45.4397",
     "description": "Saint-Étienne est marquée par son histoire industrielle et ses innovations en design."
   },
@@ -364,6 +379,7 @@
       "http://localhost:4903/static/clermontferrand4.jpg",
       "http://localhost:4903/static/clermontferrand5.jpg"
     ],
+    "video":"http://localhost:4903/static/clermont.mp4",
     "location": "3.0870, 45.7772",
     "description": "Clermont-Ferrand, ville volcanique, offre un panorama unique sur les Puys et des spécialités auvergnates."
   },
@@ -387,6 +403,7 @@
       "http://localhost:4903/static/tours4.jpg",
       "http://localhost:4903/static/tours5.jpg"
     ],
+    "video":"http://localhost:4903/static/tours.mp4",
     "location": "0.6848, 47.3941",
     "description": "Tours, souvent appelée 'jardin de la France', est réputée pour ses parcs et son patrimoine historique."
   },
@@ -410,6 +427,7 @@
       "http://localhost:4903/static/aixenprovence4.jpg",
       "http://localhost:4903/static/aixenprovence5.jpg"
     ],
+    "video":"http://localhost:4903/static/aix.mp4",
     "location": "5.4474, 43.5297",
     "description": "Aix-en-Provence est renommée pour ses fontaines, son ambiance artistique et ses marchés colorés."
   },
@@ -433,6 +451,7 @@
       "http://localhost:4903/static/brest4.jpg",
       "http://localhost:4903/static/brest5.jpg"
     ],
+    "video":"http://localhost:4903/static/brest.mp4",
     "location": "-4.4861, 48.3904",
     "description": "Brest, port maritime stratégique, est célèbre pour ses crêpes et son riche patrimoine nautique."
   },
@@ -456,6 +475,7 @@
       "http://localhost:4903/static/grenoble4.jpg",
       "http://localhost:4903/static/grenoble5.jpg"
     ],
+    "video":"http://localhost:4903/static/grenoble.mp4",
     "location": "5.7245, 45.1885",
     "description": "Grenoble, entourée de montagnes, est idéale pour les amateurs de sports d'hiver et de nature."
   },
@@ -479,6 +499,7 @@
       "http://localhost:4903/static/dijon4.jpeg",
       "http://localhost:4903/static/dijon5.jpeg"
     ],
+    "video":"http://localhost:4903/static/dijon.mp4",
     "location": "5.0415, 47.3220",
     "description": "Dijon, capitale de la Bourgogne, est renommée pour ses vins prestigieux et sa moutarde piquante."
   },
@@ -502,6 +523,7 @@
       "http://localhost:4903/static/angers4.jpg",
       "http://localhost:4903/static/angers5.jpg"
     ],
+    "video":"http://localhost:4903/static/angers.mp4",
     "location": "-0.5632, 47.4784",
     "description": "Angers, ville d'art et d'histoire, se distingue par sa célèbre tapisserie médiévale."
   }
