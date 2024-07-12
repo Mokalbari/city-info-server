@@ -547,6 +547,7 @@
       "http://localhost:4903/static/moisy4.webp",
       "http://localhost:4903/static/moisy5.webp"
     ],
+    "video":"http://localhost:4903/static/sdf.mp4",
     "location": "3.5594167215020556, 43.70904774113761",
     "description": "N'hésitez pas à venir visiter notre charmante ville de Moisy-Sur-Meth, venez profiter de notre ville très insécuritaire, où le respect de la loi est inexistant, mais aussi de nos nombreuses déchèteries à ciel ouvert. Moisy-Sur-Meth, sans doute la ville où le mot Moisy prend tout son sens. Venez dans une ville où il fait bon moisir."
   }
