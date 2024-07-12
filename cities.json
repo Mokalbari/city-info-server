@@ -526,5 +526,28 @@
     "video":"http://localhost:4903/static/angers.mp4",
     "location": "-0.5632, 47.4784",
     "description": "Angers, ville d'art et d'histoire, se distingue par sa célèbre tapisserie médiévale."
+  },
+  "Moisy-sur-Meth": {
+    "name": "Moisy-sur-Meth Frère!!!",
+    "region": "l'Hérault-in",
+    "id": 23,
+    "biome": "plaine",
+    "climat": "tempere oceanique",
+    "fait_insolite": "Un tatouage acheté, une IST offerte",
+    "gastronomie": "Freeganisme",
+    "choses_insolites_a_faire": [
+      "Bataille de punk dans une piscine de slime",
+      "Se faire faire des percings a l'épingle à nourrice sans désinfectant",
+      "Offrez-vous la même coupe que votre animal avec le coiffeur/toiletteur"
+    ],
+    "img": [
+      "http://localhost:4903/static/moisy1.jpg",
+      "http://localhost:4903/static/moisy2.jpg",
+      "http://localhost:4903/static/moisy3.webp",
+      "http://localhost:4903/static/moisy4.webp",
+      "http://localhost:4903/static/moisy5.webp"
+    ],
+    "location": "3.5594167215020556, 43.70904774113761",
+    "description": "N'hésitez pas à venir visiter notre charmante ville de Moisy-Sur-Meth, venez profiter de notre ville très insécuritaire, où le respect de la loi est inexistant, mais aussi de nos nombreuses déchèteries à ciel ouvert. Moisy-Sur-Meth, sans doute la ville où le mot Moisy prend tout son sens. Venez dans une ville où il fait bon moisir."
   }
 }
