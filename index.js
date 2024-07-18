@@ -13,16 +13,24 @@ const port = process.env.PORT || 4903;
 
 // Construct path using __dirname
 const cityDataPath = path.join(__dirname, "cities.json");
+
+// Vérifier si le fichier cities.json existe
+if (!fs.existsSync(cityDataPath)) {
+  console.error(
+    "cities.json not found. Make sure it exists at the root of your project."
+  );
+  process.exit(1); // Quitter le processus Node en cas d'erreur
+}
+
 const cityData = fs.readFileSync(cityDataPath, "utf8");
 const cities = JSON.parse(cityData);
 
 app.use(cors());
-
-// Authentication
 app.use(bodyParser.json());
 
 const getUsers = () => {
-  const data = fs.readFileSync(path.join(__dirname, "user.json"));
+  const userDataPath = path.join(__dirname, "user.json");
+  const data = fs.readFileSync(userDataPath, "utf8");
   return JSON.parse(data);
 };
 
