@@ -6,6 +6,7 @@ const bodyParser = require("body-parser");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
 const cities = require("./cities");
+const user = require("./user");
 console.log(cities);
 const SECRET_KEY = "test123";
 
