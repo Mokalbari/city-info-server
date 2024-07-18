@@ -12,7 +12,7 @@ const app = express();
 const port = process.env.PORT || 4903;
 
 // Construct path using __dirname
-const cityDataPath = path.join(__dirname, "cities.json");
+const cityDataPath = path.join(__dirname, "./functions/cities.json");
 const cityData = fs.readFileSync(cityDataPath, "utf8");
 const cities = JSON.parse(cityData);
 
