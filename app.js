@@ -5,19 +5,14 @@ const path = require("path");
 const bodyParser = require("body-parser");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
-
+const cities = require("./cities");
+console.log(cities);
 const SECRET_KEY = "test123";
 
 const app = express();
 const port = process.env.PORT || 4903;
 
-// Construct path using __dirname
-const cityDataPath = path.join(__dirname, "./functions/cities.json");
-const cityData = fs.readFileSync(cityDataPath, "utf8");
-const cities = JSON.parse(cityData);
-
 app.use(cors());
-app.use(bodyParser.json());
 
 const getUsers = () => {
   const data = fs.readFileSync(path.join(__dirname, "user.json"));
@@ -75,7 +70,7 @@ app.get("/user", authenticateJWT, (req, res) => {
 
 // Basic route to access the data
 app.get("/", (req, res) => {
-  res.send(cities);
+  res.json(cities);
 });
 
 // Normalize string for search purposes
