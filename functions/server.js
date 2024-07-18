@@ -1,5 +1,4 @@
 const serverless = require("serverless-http");
-const path = require("path");
-const app = require(path.join(__dirname, "../index.js"));
+const app = require("../app");
 
 module.exports.handler = serverless(app);
