@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const fs = require("fs");
+const path = require("path");
 const bodyParser = require("body-parser");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
@@ -10,20 +11,17 @@ const SECRET_KEY = "test123";
 const app = express();
 const port = process.env.PORT || 4903;
 
-// const cityData = JSON.parse(fs.readFileSync("cities.json", "utf8"));
-// const fs = require("fs");
-
-// Assuming cities.json is in the root of your function directory
-const cityData = fs.readFileSync("./cities.json", "utf8");
+// Use path to ensure the correct file location
+const cityData = fs.readFileSync(path.join(__dirname, "cities.json"), "utf8");
 const cities = JSON.parse(cityData);
 
 app.use(cors());
 
-//authentification
+// Authentication
 app.use(bodyParser.json());
 
 const getUsers = () => {
-  const data = fs.readFileSync("user.json");
+  const data = fs.readFileSync(path.join(__dirname, "user.json"));
   return JSON.parse(data);
 };
 
@@ -76,18 +74,12 @@ app.get("/user", authenticateJWT, (req, res) => {
   res.json({ id: foundUser.id, name: foundUser.name, email: foundUser.email });
 });
 
-//authentification
-
 // Basic route to access the data
 app.get("/", (req, res) => {
   res.send(cities);
 });
 
-// Middleware pour servir les fichiers statiques
-// app.use("/static", express.static(__dirname + "/asset"));
-
-// Now you can use 'cities' object in your function
-
+// Normalize string for search purposes
 const normalizeString = (str) =>
   str
     .toLowerCase()
@@ -120,7 +112,9 @@ app.get("/biome/:biome", (req, res) => {
   const cityBiome = req.params.biome.toLowerCase();
   const city = citiesArray.filter((element) => element.biome === cityBiome);
 
-  city ? res.json(city) : res.status(404).send("City Biome not found");
+  city.length > 0
+    ? res.json(city)
+    : res.status(404).send("City Biome not found");
 });
 
 // Route to get city by climate
@@ -128,7 +122,9 @@ app.get("/climat/:climat", (req, res) => {
   const cityClimat = normalizeString(req.params.climat);
   const city = citiesArray.filter((element) => element.climat === cityClimat);
 
-  city ? res.json(city) : res.status(404).send("City Climat not found");
+  city.length > 0
+    ? res.json(city)
+    : res.status(404).send("City Climat not found");
 });
 
 app.listen(port, () => {
