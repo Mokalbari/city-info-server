@@ -11,8 +11,9 @@ const SECRET_KEY = "test123";
 const app = express();
 const port = process.env.PORT || 4903;
 
-// Use path to ensure the correct file location
-const cityData = fs.readFileSync(path.join(__dirname, "cities.json"), "utf8");
+// Construct path using __dirname
+const cityDataPath = path.join(__dirname, "cities.json");
+const cityData = fs.readFileSync(cityDataPath, "utf8");
 const cities = JSON.parse(cityData);
 
 app.use(cors());
