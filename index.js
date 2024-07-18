@@ -10,7 +10,12 @@ const SECRET_KEY = "test123";
 const app = express();
 const port = process.env.PORT || 4903;
 
-const cityData = JSON.parse(fs.readFileSync("cities.json", "utf8"));
+// const cityData = JSON.parse(fs.readFileSync("cities.json", "utf8"));
+// const fs = require("fs");
+
+// Assuming cities.json is in the root of your function directory
+const cityData = fs.readFileSync("./cities.json", "utf8");
+const cities = JSON.parse(cityData);
 
 app.use(cors());
 
@@ -75,11 +80,13 @@ app.get("/user", authenticateJWT, (req, res) => {
 
 // Basic route to access the data
 app.get("/", (req, res) => {
-  res.send(cityData);
+  res.send(cities);
 });
 
 // Middleware pour servir les fichiers statiques
-app.use("/static", express.static(__dirname + "/asset"));
+// app.use("/static", express.static(__dirname + "/asset"));
+
+// Now you can use 'cities' object in your function
 
 const normalizeString = (str) =>
   str
@@ -88,7 +95,7 @@ const normalizeString = (str) =>
     .replace(/[\u0300-\u036f]/g, "");
 
 // Turn the JSON into an array
-const citiesArray = Object.values(cityData);
+const citiesArray = Object.values(cities);
 
 // Route to get city by ID
 app.get("/id/:id", (req, res) => {
