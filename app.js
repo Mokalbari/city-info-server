@@ -57,6 +57,8 @@ const authenticateJWT = (req, res, next) => {
   }
 };
 
+app.use("/static", express.static(__dirname + "/asset"));
+
 app.get("/user", authenticateJWT, (req, res) => {
   const users = getUsers();
   const foundUser = users.find((u) => u.id === req.user.id);
